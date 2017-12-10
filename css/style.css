@@ -3,3 +3,28 @@ body {
     color: #291f1a;
     font-weight: 300;
 }
+nav#main-nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    
+}
+#main-nav > ul {
+    margin: 0;
+    float: right;
+}
+#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px 40px;
+}
+#main-nav > ul > li > a {
+    text-decoration: none;
+    color: #1ac056;
+    padding: 20px 40px;
+}
+#main-nav > ul > li > a:hover {
+    color: grey;
+}
+
