@@ -1,30 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
 }
+
 nav#main-nav {
     position: fixed;
     width: 100%;
     background-color: #fff;
-    right: 0;
-    top: 0;
-    
+    right: 0px;
+    top: 0px;
 }
+
 #main-nav > ul {
     margin: 0;
     float: right;
 }
+
 #main-nav > ul > li {
     display: inline-block;
     padding: 20px 40px;
 }
+
 #main-nav > ul > li > a {
     text-decoration: none;
     color: #1ac056;
     padding: 20px 40px;
 }
+
 #main-nav > ul > li > a:hover {
     color: grey;
 }
 
+/* Navigation End */
+
+/* Header Start */
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 200vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#main-header .main-header-content {
+    text-align: center;
+    padding: 70vh;
+}
+
+#main-header .main-header-content h1 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+#main-header .main-header-content h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+/* Header End */
+/*    O mnie - Start     */
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    width: 100%;
+    
+}
+#about > figure {
+    width: 50%; 
+    margin: 10px;
+}
+#about > figure > img {
+    max-width: 350px;
+    padding: 5px;
+}
+#about > article {
+    width: 50%;
+    float: left;
+}
+/*    O mnie - End       */
